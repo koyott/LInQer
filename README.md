@@ -10,6 +10,9 @@ $ npm install @siderite/linqer
 
 # Quick start
 ```sh
+
+var Linqer = require('@siderite/linqer');
+
 const source = ... an array or a generator function or anything that is iterable... ;
 const enumerable = Linqer.Enumerable.from(source); // now you can both iterate and use LINQ like functions
 const result = enumerable
